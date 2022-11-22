@@ -16,8 +16,8 @@ export default function Weather(props) {
   axios.get(apiUrl).then(handleResponse);
   return (
     <Rings
-      height="100"
-      width="100"
+      height="150"
+      width="150"
       color="#62DAFB"
       radius="6"
       wrapperStyle={{}}
