@@ -97,7 +97,24 @@ export default function Weather(props) {
         </div>
       </div>
       <footer>
-        <div className="credits">Designed and Coded by Breanda Barnett</div>
+        <div className="credits">
+          <a
+            href="https://github.com/breandabarnett"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          • Designed by
+          <a
+            href="https://breanda.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Breanda Barnett
+          </a>
+        </div>
       </footer>
     </div>
   );
